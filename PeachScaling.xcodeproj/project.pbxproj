@@ -3,20 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXFileReference section */
 		19FDA0BA2ED66F9100F64E76 /* PeachScaling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeachScaling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXGroup section */
 		19FDA0BC2ED66F9100F64E76 /* PeachScaling */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
+			children = (
+			);
 			path = PeachScaling;
 			sourceTree = "<group>";
 		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* End PBXGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		19FDA0B72ED66F9100F64E76 /* Frameworks */ = {
@@ -61,9 +63,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				19FDA0BC2ED66F9100F64E76 /* PeachScaling */,
-			);
+
 			name = PeachScaling;
 			packageProductDependencies = (
 			);
@@ -82,7 +82,7 @@
 				LastUpgradeCheck = 0940;
 				TargetAttributes = {
 					19FDA0B92ED66F9100F64E76 = {
-						CreatedOnToolsVersion = 16.4;
+						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
