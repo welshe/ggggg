@@ -6,14 +6,32 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		222222222222222200000001 /* PeachScalingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111100000001 /* PeachScalingApp.swift */; };
+		222222222222222200000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111100000002 /* ContentView.swift */; };
+		222222222222222200000003 /* DirectRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111100000003 /* DirectRenderer.swift */; };
+		222222222222222200000004 /* MGHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111100000004 /* MGHUD.swift */; };
+		222222222222222200000005 /* CaptureSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111100000005 /* CaptureSettings.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		19FDA0BA2ED66F9100F64E76 /* PeachScaling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeachScaling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111100000001 /* PeachScalingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachScalingApp.swift; sourceTree = "<group>"; };
+		111111111111111100000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		111111111111111100000003 /* DirectRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectRenderer.swift; sourceTree = "<group>"; };
+		111111111111111100000004 /* MGHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGHUD.swift; sourceTree = "<group>"; };
+		111111111111111100000005 /* CaptureSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		19FDA0BC2ED66F9100F64E76 /* PeachScaling */ = {
 			isa = PBXGroup;
 			children = (
+				111111111111111100000001 /* PeachScalingApp.swift */,
+				111111111111111100000002 /* ContentView.swift */,
+				111111111111111100000003 /* DirectRenderer.swift */,
+				111111111111111100000004 /* MGHUD.swift */,
+				111111111111111100000005 /* CaptureSettings.swift */,
 			);
 			path = PeachScaling;
 			sourceTree = "<group>";
@@ -140,6 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222222222222222200000001 /* PeachScalingApp.swift in Sources */,
+				222222222222222200000002 /* ContentView.swift in Sources */,
+				222222222222222200000003 /* DirectRenderer.swift in Sources */,
+				222222222222222200000004 /* MGHUD.swift in Sources */,
+				222222222222222200000005 /* CaptureSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,31 +320,11 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
-					CoreMedia,
-					"-framework",
-					ScreenCaptureKit,
+					Cocoa,
 					"-framework",
 					Metal,
 					"-framework",
 					MetalKit,
-					"-framework",
-					MetalPerformanceShaders,
-					"-framework",
-					MetalPerformanceShadersGraph,
-					"-framework",
-					MetalFX,
-					"-framework",
-					QuartzCore,
-					"-framework",
-					Vision,
-					"-framework",
-					CoreImage,
-					"-framework",
-					VideoToolbox,
-					"-framework",
-					IOSurface,
-					"-framework",
-					CoreGraphics,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeachScaling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,31 +362,11 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
-					CoreMedia,
-					"-framework",
-					ScreenCaptureKit,
+					Cocoa,
 					"-framework",
 					Metal,
 					"-framework",
 					MetalKit,
-					"-framework",
-					MetalPerformanceShaders,
-					"-framework",
-					MetalPerformanceShadersGraph,
-					"-framework",
-					MetalFX,
-					"-framework",
-					QuartzCore,
-					"-framework",
-					Vision,
-					"-framework",
-					CoreImage,
-					"-framework",
-					VideoToolbox,
-					"-framework",
-					IOSurface,
-					"-framework",
-					CoreGraphics,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeachScaling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
